@@ -18,8 +18,13 @@ request('http://example.edu', (error, response, body) => {
       return
     } console.log(`Downloaded and saved ${bytes} bytes to ${path}`)
     //file written successfully
-  })
+  });
 });
+//fs.writeFile(path, body, {}, () => {
+//  console.log(`Downloaded and saved ${bytes} bytes to ${path}`)
+//});
+// //file written successfully
+// });
 
 
 
